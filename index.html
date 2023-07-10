@@ -25,13 +25,30 @@
 
     <div class="input_section">
       <div class="freetrial_section"><p class="p_freetrial_section"><b>Try it free 7 days</b> then $20/mo. thereafter</p></div>
-      <form action="#">
-        <input type="text" name="FirstName" placeholder="First Name"/>
-        <input type="text" name="firstName" placeholder="Last Name"/>
-        <input type="email" name="lastName" placeholder="Email Address"/>
-        <input type="password" name="password" placeholder="Password"/>
-        <button class="btn">CLAIM YOUR FREE TRIAL</button>
+      <form action="#" >
+        <div class="form-control">
+          <input type="text" name="FirstName" placeholder="First Name"  /> <i></i>
+          <p>First Name cannot be empty</p>
+        </div>
+          
+        <div class="form-control">
+          <input type="text" name="LastName" placeholder="Last Name" />
+          <p class="InputErrorMessage">Last Name cannot be empty</p>
+        </div>
+          
+        <div class="form-control">
+          <input type="email" name="email" placeholder="Email Address" />
+          <p class="InputErrorMessage">Looks like this is not an email</p>
+        </div>
+          
+        <div class="form-control">
+          <input type="password" name="password" placeholder="Password"  />
+          <p class="InputErrorMessage">password cannot be empty</p>
+        </div>
+          
+          <button class="btn"  type="submit" >CLAIM YOUR FREE TRIAL</button>
       </form>
+      <p class="terms_services">By clicking the button, you are agreeing to our <a href="#">Terms and Services</a></p>
     </div>
   </section>
 
