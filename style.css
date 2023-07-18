@@ -152,3 +152,33 @@ a{
 .form-control.error p{
     visibility: visible;
 }
+
+.form-control.error .icon{
+    visibility: visible;
+}
+
+
+
+.icon{
+    position: absolute;
+   margin-left: 260px;
+   margin-top: 6px;
+   visibility: hidden;
+}
+
+.fa{
+    font-size: 11px;
+
+}
+
+.circle_icon {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 15px;
+    vertical-align: middle;
+    padding: 10px;
+    background-color: rgb(233, 106, 106);
+    color: white;
+  }

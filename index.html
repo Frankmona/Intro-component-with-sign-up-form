@@ -9,6 +9,8 @@
   <title>Frontend Mentor | Intro component with sign up form</title>
 <!-- <link rel="stylesheet" href="style.css"> -->
 <link rel="stylesheet" href="/style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+
   
 </head>
 <body>
@@ -25,32 +27,37 @@
 
     <div class="input_section">
       <div class="freetrial_section"><p class="p_freetrial_section"><b>Try it free 7 days</b> then $20/mo. thereafter</p></div>
-      <form action="#" >
-        <div class="form-control">
-          <input type="text" name="FirstName" placeholder="First Name"  /> <i></i>
+      <form action="#" id="form">
+        <div class="form-control ">
+          <span class="icon"><i class=" circle_icon fa fa-exclamation"></i></span>
+          <input type="text" name="FirstName"  id="FirstName" placeholder="First Name" />
           <p>First Name cannot be empty</p>
         </div>
           
         <div class="form-control">
-          <input type="text" name="LastName" placeholder="Last Name" />
-          <p class="InputErrorMessage">Last Name cannot be empty</p>
+          <span class="icon"><i class=" circle_icon fa fa-exclamation"></i></span>
+          <input type="text" name="LastName" id="LastName" placeholder="Last Name" />
+          <p>Last Name cannot be empty</p>
         </div>
           
         <div class="form-control">
-          <input type="email" name="email" placeholder="Email Address" />
-          <p class="InputErrorMessage">Looks like this is not an email</p>
+          <span class="icon"><i class=" circle_icon fa fa-exclamation"></i></span>
+          <input type="email" name="email" id="email" placeholder="Email Address" />
+          <p>Looks like this is not an email</p>
         </div>
           
         <div class="form-control">
-          <input type="password" name="password" placeholder="Password"  />
-          <p class="InputErrorMessage">password cannot be empty</p>
+          <span class="icon"><i class=" circle_icon fa fa-exclamation"></i></span>
+          <input type="password" name="password" id="password" placeholder="Password"  />
+          <p>password cannot be empty</p>
         </div>
           
-          <button class="btn"  type="submit" >CLAIM YOUR FREE TRIAL</button>
+          <button class="btn" type="submit" >CLAIM YOUR FREE TRIAL</button>
       </form>
       <p class="terms_services">By clicking the button, you are agreeing to our <a href="#">Terms and Services</a></p>
     </div>
   </section>
+
 
   <!-- Learn to code by watching others
 
