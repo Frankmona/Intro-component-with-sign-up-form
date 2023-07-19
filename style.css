@@ -220,7 +220,7 @@ a{
     }
 
     .freetrial_section{
-        width: 350px;
+        width: 400px;
         height: 70px;
         background-color: hsl(248, 32%, 49%);
         font-family: 'Poppins', sans-serif;
@@ -234,12 +234,29 @@ a{
     }
 
     .input_section{
-        width: 350px;
-        min-height: 350px;
+        width: 400px;
+        min-height: 370px;
         background-color: white;
         border-radius: 12px;
         margin-top: 100px;
         box-shadow: 0px 6px 0px 0px rgba(77, 76, 76, 0.3);
         
     } 
+
+    input{
+        width: 350px;
+        height: 35px;
+    }
+
+    .btn{
+        width: 350px;
+        height: 35px;
+        background-color: hsl(154, 59%, 51%);
+        border: 0;
+        border-radius: 5px;
+        font-family: 'Poppins', sans-serif;
+        color: white;
+        box-shadow: 0px 4px 0px 0px hsl(154, 85%, 35%);
+        cursor: pointer;
+    }
   }
