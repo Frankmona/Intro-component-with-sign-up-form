@@ -221,7 +221,7 @@ a{
     }
 
     .freetrial_section{
-        width: 400px;
+        width: 380px;
         height: 70px;
         background-color: hsl(248, 32%, 49%);
         font-family: 'Poppins', sans-serif;
@@ -235,7 +235,7 @@ a{
     }
 
     .input_section{
-        width: 400px;
+        width: 380px;
         min-height: 370px;
         background-color: white;
         border-radius: 12px;
@@ -245,12 +245,12 @@ a{
     } 
 
     input{
-        width: 350px;
+        width: 320px;
         height: 35px;
     }
 
     .btn{
-        width: 350px;
+        width: 320px;
         height: 35px;
         background-color: hsl(154, 59%, 51%);
         border: 0;
