@@ -187,9 +187,9 @@ a{
     .section{
         display: flex;
         flex-direction: column;
-        margin-left: auto;
+        margin-left: 0;
         gap: rem;
-        margin-right: auto;
+        margin-right: 0;
         /* background-color: bisque; */
         width: 100%;
         height: 100%;
