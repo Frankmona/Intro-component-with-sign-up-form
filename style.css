@@ -197,11 +197,12 @@ a{
         padding: 20px;
     }
     .article_box{
-        width: 100%;
+        width: 90%;
         height: 200px;
-        /* background-color: azure; */
+        /* background-color: burlywood; */
         font-family: 'Poppins', sans-serif;
         color: white;
+       
 
     } 
 
@@ -271,7 +272,7 @@ form{
 
 .icon{
     position: absolute;
-   margin-left: 310px;
+   margin-left: 320px;
    margin-top: 6px;
    visibility: hidden;
 }
